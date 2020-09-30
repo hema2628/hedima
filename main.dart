@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget{
       title: 'text widget',
       home:Scaffold(
         appBar: new AppBar(title: new Text('ListView Widget')),
-
+//------------text list------------
       //   body:GridView.count(
       //     padding:const EdgeInsets.all(20.0),
       //     crossAxisSpacing: 10.0,
@@ -29,6 +29,10 @@ class MyApp extends StatelessWidget{
       //       const Text(' xiao ma ben'),
       //     ],
       // )
+        
+       
+        
+        //------------images list in grid------------
         body: GridView(
           gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
             crossAxisCount: 3,
@@ -46,7 +50,7 @@ class MyApp extends StatelessWidget{
           ],
         ),
 
-
+//------------reyurn items list with recycle and index------------
 
         // body:new ListView.builder(
         //   itemCount: items.length,
@@ -56,7 +60,10 @@ class MyApp extends StatelessWidget{
         //     );
         //   },
         // )
-
+        
+        
+        
+//------------listtiles with leading------------
         // body:
         // new ListView(
         //   children: <Widget>[
@@ -90,7 +97,7 @@ class MyApp extends StatelessWidget{
 
 
 
-
+//------------text with gradient backgroud------------
 
         // body: Center(
         //
@@ -127,7 +134,7 @@ class MyApp extends StatelessWidget{
 }
 
 
-
+//------------horizontal containers------------
 
 class myList extends StatelessWidget{
   @override
